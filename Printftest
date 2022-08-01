@@ -1,3 +1,13 @@
+Makefile 
+re : 
+--------------------------------
+run:
+        gcc main.c libftprintf.a
+        ./a.out
+--------------------------------
+
+Main test : 
+
 int main(void)
 {
         int i = -2147483648;
