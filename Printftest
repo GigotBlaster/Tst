@@ -1,0 +1,15 @@
+int main(void)
+{
+        int i = -2147483648;
+        unsigned int u = 42;
+        printf("%d\n",ft_printf("%d %x %X\n", i, u, u));
+        printf("%d\n",printf("%d %x %X\n", i, u, u));
+
+        char *str = strdup("Hello World !");
+        printf("%d\n", ft_printf("adresse : %p \nchar : %c \nstring %s\n%%\n", str, *str, str));
+        printf("%d\n", printf("adresse : %p \nchar : %c \nstring %s\n%%\n", str, *str, str));
+
+        ft_printf("\n%s\n", 0);
+        printf("\n%s\n", 0);
+        return (0);
+}
